@@ -1,0 +1,106 @@
+body {
+  background-color: rgba(100, 100, 100, 0.2);
+  margin: 10;
+}
+
+h1 {
+  color: #095256;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+}
+h2 {
+  color: #095256;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center
+}
+
+#btn-contact {
+  color: white;
+  background-color: #9A0E7B;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+#btn-contact:hover {
+  background-color: red;
+}
+
+p {
+  font-family: Overpass;
+  font-size: 23px;
+  font-weight: lighter;
+  color: #00A9A5;
+}
+}
+.container {
+  width: 200px;
+  margin: auto;
+}
+
+.card {
+  box-shadow: 1px 1px 10px rgb(180, 180, 180);
+  padding: 10px 60px;
+  text-align:center;
+  margin: 20px 0;
+  max-width: 100%;
+  background-color: white;
+
+}
+
+
+.ul {
+  list-style-type: none;
+}
+.img {
+  max-width: 10%;
+  height: auto;
+}
+
+.avatar {
+  width: 17%;
+  height: 145;
+  border-radius: 50%;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-list-item {
+  display: inline;
+  font-size: 32px;
+  list-style: none;
+}
+
+.icon-color {
+  color: red;
+}
+
+/* Write some CSS below */
+@media (max-width: 740px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+/* Write some CSS below */
+@media (max-width: 520px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
